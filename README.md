@@ -1,5 +1,5 @@
 ```bash
-$ git clonet git@github.com:futaro/slaslaslack.git slaslaslack
+$ git clone git@github.com:futaro/slaslaslack.git slaslaslack
 $ cd slaslaslack
 $ mkdir ~/.slaslaslack
 $ cp style.css ~/.slaslaslack/
