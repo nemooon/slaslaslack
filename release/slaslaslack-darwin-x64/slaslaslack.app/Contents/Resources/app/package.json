@@ -1,0 +1,36 @@
+{
+  "name": "slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "build": "./node_modules/.bin/electron-packager . slaslaslack --platform=darwin --arch=x64 --out ./release --version=0.0.1",
+    "watch": "./node_modules/.bin/babel -w ./src -d ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futaro/salck-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/futaro/salck-cli/issues"
+  },
+  "homepage": "https://github.com/futaro/salck-cli#readme",
+  "dependencies": {
+    "@slack/client": "^3.16.0",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "electron": "^1.8.3",
+    "electron-packager": "^11.1.0",
+    "eventemitter2": "^5.0.1",
+    "jquery": "^3.3.1",
+    "moment": "^2.21.0",
+    "pad": "^2.0.3",
+    "query-string": "^5.1.0"
+  }
+}

@@ -1,0 +1,35 @@
+body {
+    /*background: #111;*/
+    overflow: hidden;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+table td {
+    vertical-align: top;
+    padding: 5px 4px;
+}
+
+table td:nth-child(1) {
+    text-align: right;
+}
+
+table td:nth-child(1) {
+    white-space: nowrap;
+}
+
+table tr.log td:nth-child(2) {
+    color: #CCC;
+}
+
+img.profile {
+    position: absolute;
+}
+div.right_side {
+    padding-left: 50px;
+}
+p.message {
+    white-space: pre-wrap;
+}
